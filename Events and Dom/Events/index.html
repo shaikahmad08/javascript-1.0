@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="./JavaScript_Event.js" type="text/javascript">mouseout</script>
+    <style>
+        h1 {
+          text-align: center;
+        }
+        .box{
+                border: 5px solid red;
+            }
+     </style>
+</head>
+<body>
+    <h1>JS-EVENTS</h1>
+
+
+    <button id="click_change" onmouseout="change_color()" style="background-color: red ;">MouseOut</button>
+    <br><br>
+    <button id="change" onmouseover="color_change()" style="background-color: green;">MouseOver</button>
+    <br><br>
+    <button id="background" onclick="change_click()" style="background-color: blue;">OnClick</button>
+    <br><br>
+    <button id="background_dbl" ondblclick="click_change()" style="background-color: yellow;">OnDblClick</button>
+    <br><br>
+    
+    <form>
+      onfocus:<input type="text" onfocus="text_focus()" id="focus_text"/>
+      <br>
+      <br>
+      onblur: <input type="text" onblur="focuss_text()" id="focus"/>
+    <br>
+    <br>
+    name: <input type="text" onblur="upper()" id="lower">
+        
+    </form>
+   
+
+</body>
+</html>

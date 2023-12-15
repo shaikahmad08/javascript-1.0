@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    color: rgb(132, 23, 23);
+    background-color: rgb(132, 101, 101);
+    text-align: center;
+    border: 5px solid rgb(114, 162, 114);
+    padding: 13px;
+    margin-top: 5px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
